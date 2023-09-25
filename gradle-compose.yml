@@ -1,13 +1,22 @@
-version: '0.0.1'
-source: "https://github.com/tr7zw/ForgeFabricComposeTemplate/tree/1.18.2-shared/"
+version: '0.0.2'
+source: "https://github.com/tr7zw/ModComposeTemplate/tree/1.20.2"
 replacements:
   group: "dev.tr7zw"
   name: "Exordium"
   id: "exordium"
-  version: "1.0.1"
+  version: "1.2.1"
   author: "tr7zw"
   relocationpackage: "dev.tr7zw.exordium"
   licensename: "LICENSE"
+  modrinthid: "DynYZEae"
+  curseforgeid: "681953"
+enabledFlags:
+  - autopublish
+  - publishFabric
+  - publishForge
+  - modrinth
+  - curseforge
+  - accesswidener
 rootProject:
   template: "."
 subProjects:
